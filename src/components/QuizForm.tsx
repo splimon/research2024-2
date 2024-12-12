@@ -51,7 +51,7 @@ const QuizPage = () => {
     setResult((prev) => (selectedAnswer
       ? {
         ...prev,
-        score: prev.score + 5,
+        score: prev.score + 10,
         correctAnswers: prev.correctAnswers + 1,
       }
       : {
@@ -154,7 +154,7 @@ const QuizPage = () => {
             <h3>Results</h3>
             <h3>
               Overall: &nbsp;
-              {(result.score / (questions.length * 5)) * 100}
+              {Math.round((result.correctAnswers / questions.length) * 100)}
               %
             </h3>
             <p>
