@@ -1,12 +1,12 @@
-import FooterButtons from '@/components/FooterButtons';
 import PythonSyntax from '@/components/PythonSyntax';
+import SyntaxCommentsButtons from '@/components/SyntaxCommentsButtons';
 import React from 'react';
 
-const PythonIntroPage = () => (
+const PythonSyntaxPage = () => (
   <>
     <PythonSyntax />
-    <FooterButtons />
+    <SyntaxCommentsButtons />
   </>
 );
 
-export default PythonIntroPage;
+export default PythonSyntaxPage;

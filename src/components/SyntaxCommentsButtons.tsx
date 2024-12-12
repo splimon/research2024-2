@@ -4,7 +4,7 @@ import Link from 'next/link';
 import React from 'react';
 import { Button, Container } from 'react-bootstrap';
 
-const FooterButtons = () => {
+const IntroSyntaxButtons = () => {
   const handleBack = () => {
     window.history.back();
   };
@@ -19,7 +19,7 @@ const FooterButtons = () => {
         >
           Back
         </Button>
-        <Link href="/python-syntax">
+        <Link href="/python-comments">
           <Button className="btn btn-primary" style={{ position: 'absolute', right: '10px' }}>
             Next
           </Button>
@@ -29,4 +29,4 @@ const FooterButtons = () => {
   );
 };
 
-export default FooterButtons;
+export default IntroSyntaxButtons;

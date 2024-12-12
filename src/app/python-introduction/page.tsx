@@ -1,11 +1,11 @@
-import FooterButtons from '@/components/FooterButtons';
+import IntroSyntaxButtons from '@/components/IntroSyntaxButtons';
 import PythonIntro from '@/components/PythonIntro';
 import React from 'react';
 
 const PythonIntroPage = () => (
   <>
     <PythonIntro />
-    <FooterButtons />
+    <IntroSyntaxButtons />
   </>
 );
 
