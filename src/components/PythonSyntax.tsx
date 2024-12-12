@@ -5,7 +5,7 @@ import { Row, Col, Container, Card } from 'react-bootstrap';
 const PythonSyntax = () => (
   <Container>
     <Row>
-      <Col md={{ span: 8, offset: 3 }}>
+      <Col md={{ span: 8, offset: 2 }}>
         <h2 className="padding"><strong><u>Python Syntax</u></strong></h2>
 
         <h3 className="padding">Python Indentation</h3>

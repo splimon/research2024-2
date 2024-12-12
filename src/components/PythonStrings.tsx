@@ -13,7 +13,7 @@ const PythonStrings = () => {
   return (
     <Container>
       <Row>
-        <Col md={{ span: 8, offset: 3 }}>
+        <Col md={{ span: 8, offset: 2 }}>
           <h2 className="padding"><strong><u>Python Strings</u></strong></h2>
 
           <h3 className="padding">Strings</h3>

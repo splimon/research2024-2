@@ -13,7 +13,7 @@ const PythonIntro = () => {
   return (
     <Container>
       <Row>
-        <Col md={{ span: 8, offset: 3 }}>
+        <Col md={{ span: 8, offset: 2 }}>
           <h2 className="padding"><strong><u>Python Introduction</u></strong></h2>
 
           <h2 className="padding">What is Python?</h2>

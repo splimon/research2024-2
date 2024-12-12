@@ -13,7 +13,7 @@ const PythonVariables = () => {
   return (
     <Container>
       <Row>
-        <Col md={{ span: 8, offset: 3 }}>
+        <Col md={{ span: 8, offset: 2 }}>
           <h2 className="padding"><strong><u>Python Variables</u></strong></h2>
 
           <h3 className="padding">Python Variables</h3>

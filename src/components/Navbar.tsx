@@ -15,8 +15,8 @@ const NavBar: React.FC = () => {
   const pathName = usePathname();
   return (
     <Navbar style={{ backgroundColor: '#024731' }} expand="lg">
+      <Navbar.Brand href="/" style={{ color: 'white', paddingLeft: '20px' }}>Introduction to Python</Navbar.Brand>
       <Container>
-        <Navbar.Brand href="/" style={{ color: 'white' }}>Introduction to Python</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto justify-content-start">
