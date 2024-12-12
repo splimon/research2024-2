@@ -19,7 +19,7 @@ const FooterButtons = () => {
         >
           Back
         </Button>
-        <Link href="/add">
+        <Link href="/python-syntax">
           <Button className="btn btn-primary" style={{ position: 'absolute', right: '10px' }}>
             Next
           </Button>
