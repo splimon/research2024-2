@@ -1,4 +1,5 @@
-import { Col, Container, Image, Row } from 'react-bootstrap';
+import Link from 'next/link';
+import { Button, Col, Container, Image, Row } from 'react-bootstrap';
 
 /** The Home page. */
 const Home = () => (
@@ -10,9 +11,9 @@ const Home = () => (
           <br />
           <h3>Ready to Learn?</h3>
           <br />
-          <a href="#python-intro">
-            <button type="button" className="btn btn-primary">Let&apos;s Begin!</button>
-          </a>
+          <Link href="/python-introduction">
+            <Button type="button" className="btn btn-primary">Let&apos;s Begin!</Button>
+          </Link>
         </Col>
       </Row>
       <Col>

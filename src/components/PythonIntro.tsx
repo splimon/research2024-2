@@ -11,7 +11,7 @@ const PythonIntro = () => {
   };
 
   return (
-    <Container id="python-intro">
+    <Container>
       <Row>
         <Col md={{ span: 8, offset: 3 }}>
           <h2 className="padding"><strong><u>Python Introduction</u></strong></h2>
