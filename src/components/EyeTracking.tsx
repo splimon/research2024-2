@@ -63,7 +63,7 @@ const EyeTracking = () => {
           console.error('Error saving gaze data:', error);
         }
       }
-    }, 1000);
+    }, 10);
 
     // Cleanup when the component unmounts
     return () => {
